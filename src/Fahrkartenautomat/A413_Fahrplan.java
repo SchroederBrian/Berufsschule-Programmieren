@@ -2,7 +2,7 @@ package Fahrkartenautomat;
 
 import java.util.Scanner;
 
-public class FahrzeitMitPAP {
+public class A413_Fahrplan {
     public static void main(String[] args) throws InterruptedException {
         int fahrzeit;
         String eingabe;
@@ -60,5 +60,7 @@ public class FahrzeitMitPAP {
         }
 
         System.out.println("\nDeine Fahrzeit beträgt: " + fahrzeit + "min");
+
+        tastatur.close();
     }
 }
