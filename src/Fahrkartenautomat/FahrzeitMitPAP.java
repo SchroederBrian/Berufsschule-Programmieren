@@ -53,6 +53,7 @@ public class FahrzeitMitPAP {
             }
         }
 
+        System.out.println("Let me do it for you <3");
         for (int i = 0; i < 8; i++) {
             System.out.print("=");
             Thread.sleep(200);
