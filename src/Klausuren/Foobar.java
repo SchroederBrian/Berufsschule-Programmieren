@@ -6,11 +6,9 @@ public class Foobar {
 
     public static void main(String[] args) {
 
-        Scanner myScanner = new Scanner(System.in);
+        Scanner tastatur = new Scanner(System.in);
 
         int zahl;
-
-        Scanner tastatur = new Scanner(System.in);
 
         System.out.print("Eingabe von eine ganze Zahl: ");
 
