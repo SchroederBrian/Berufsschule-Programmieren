@@ -33,6 +33,8 @@ public class Wettkampf  {
                 System.exit(0);
             }
         }
+
+        tastatur.close();
     }
 }
 
