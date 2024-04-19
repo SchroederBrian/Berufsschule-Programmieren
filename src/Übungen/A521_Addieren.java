@@ -1,4 +1,7 @@
+package Übungen;
+
 import java.util.Scanner;
+
 public class A521_Addieren {
     public static void main(String[] args) {
 
@@ -16,7 +19,6 @@ public class A521_Addieren {
 
         System.out.print("Die Summe ist:" + summe);
 
-
-
+        sc.close();
     }
 }

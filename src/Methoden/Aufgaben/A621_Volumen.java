@@ -4,15 +4,16 @@ import java.util.Scanner;
 
 public class A621_Volumen {
     public static void main(String[] args) {
-        double seitenLaenge = eingabeSeitenLaenge();
+        Scanner scanner = new Scanner(System.in);
+
+        double seitenLaenge = eingabeSeitenLaenge(scanner);
 
         double volumen = volumenWuerfel(seitenLaenge);
 
         ausgabeErgebnis(seitenLaenge, volumen);
     }
 
-    public static double eingabeSeitenLaenge() {
-        Scanner scanner = new Scanner(System.in);
+    public static double eingabeSeitenLaenge(Scanner scanner) {
         System.out.print("Geben Sie die Seitenlänge des Würfels ein: ");
         return scanner.nextDouble();
     }

@@ -16,6 +16,8 @@ public class Quadrat {
 
         //Ausgabe
         System.out.println("Die Zahl" + zahl + "²: " + wert);
+        
+        tastatur.close();
     }
 
     private static int quadrieren(int eingabe) {

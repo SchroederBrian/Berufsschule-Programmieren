@@ -43,5 +43,7 @@ public class A422_Groessterwert {
 
         System.out.println("Der größte eingegebene Wert ist: " + max);
         System.out.println("Der größte eingegebene Wert ist Nummer: " + werIstMax);
+
+        Tastatur.close();
     }
 }
